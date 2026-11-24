@@ -1,0 +1,27 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Environment variables and secrets
+.env
+backend/.env
+
+# Python
+venv/
+backend/venv/
+__pycache__/
+*.pyc
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+
+# Local uploads and generated files
+uploads/*
+!uploads/.gitkeep
+
+# Local configuration
+.DS_Store
+
+reports/
